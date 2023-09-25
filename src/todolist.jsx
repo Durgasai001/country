@@ -6,10 +6,12 @@ function Todolist(){
          setTodos([...todos,v])
     }
    
+   
     return(
         <div>
             <input type="text" id="ss"></input>
             <button onClick={abc}>Add todo</button>
+           
             {
                 todos.map((todo,i)=>{
                     return (
